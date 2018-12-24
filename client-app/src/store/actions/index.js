@@ -5,7 +5,14 @@ export const SIGN_OUT = 'SIGN_OUT';
 export const signIn = (user) => {
     return {
         type: SIGN_IN,
-        user
+        userId: user.Eea,
+        userFullName: user.ig,
+        userFirstName: user.ofa,
+        userLastName: user.wea,
+        userEmail: user.U3,
+        userProfileImage: user.Paa
+
+
     }
 };
 
@@ -14,3 +21,5 @@ export const signOut = () => {
         type: SIGN_OUT
     }
 };
+
+

@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Api for streamy app",
+  "main": "index.js",
+  "author": "Patrick Vieira",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server -p 3001 -w db.json"
+  },
+  "dependencies": {
+    "json-server": "^0.14.0"
+  }
+}

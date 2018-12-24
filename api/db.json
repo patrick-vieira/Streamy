@@ -1,0 +1,68 @@
+{
+  "streams": [
+    {
+      "title": "asd",
+      "description": "asdd",
+      "id": 1
+    },
+    {
+      "title": "new stream",
+      "description": "Id 2 talvez",
+      "id": 2
+    },
+    {
+      "title": "terceito",
+      "description": "Ahoooy",
+      "id": 3
+    },
+    {
+      "title": "com id",
+      "description": "aaa id",
+      "Eea": "105955174319625355303",
+      "id": 4
+    },
+    {
+      "title": "EDIT",
+      "description": "EDITd",
+      "id": 5
+    },
+    {
+      "title": "5 new",
+      "description": "5 neeeew",
+      "id": 6
+    },
+    {
+      "title": "new 62qw",
+      "description": " asd sada",
+      "id": 7
+    },
+    {
+      "title": "nnovo",
+      "description": "EDD",
+      "id": 9
+    },
+    {
+      "title": "myne",
+      "description": "asdasd",
+      "userId": "105955174319625355303",
+      "id": 10
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

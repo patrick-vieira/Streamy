@@ -42,8 +42,8 @@ class GoogleAuth extends React.Component {
 
                 <div className="ui small button animated fade " tabIndex="0">
                     <div className="visible content ">
-                        <img className="ui avatar image" src={`${ this.props.user.Paa}`} alt='profile' />
-                        <span> {`${ this.props.user.ig}`}</span>
+                        <img className="ui avatar image" src={`${ this.props.userProfileImage}`} alt='profile' />
+                        <span> {`${ this.props.userName}`}</span>
                     </div>
                     <div className="hidden content"  onClick={this.signOutClick}>
                         Sign Out
@@ -70,7 +70,8 @@ class GoogleAuth extends React.Component {
 const mapStateToProps = (state) => {
     return {
         isSignedIn: state.auth.isSignedIn,
-        user: state.auth.user
+        userProfileImage: state.auth.userProfileImage,
+        userName: state.auth.userFullName
     }
 };
 
